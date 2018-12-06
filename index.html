@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DRAG AND FROP GAME</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- DEFAULT START COLOR _______________________________ -->
+    <div class="gamezone"></div>
+    <!-- WIN GAME IMGAGE _______________________________ -->
+    <img src="images/wingame.png" alt="">
+
+
+    <!-- DRAG AREA _______________________________ -->
+    <div class="dragArea">
+        <div class="outer">
+            <div class="draggedItems" id="div1" draggable="true">1</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div2" draggable="true">2</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div3" draggable="true">3</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div4" draggable="true">4</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div5" draggable="true">5</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div6" draggable="true">6</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div7" draggable="true">7</div>
+        </div>
+        <div class="outer">
+            <div class="draggedItems" id="div8" draggable="true">8</div>
+        </div>
+    </div>
+
+
+    <!-- DROP AREA _______________________________ -->
+    <div class="dropArea">
+        <div class="droppable" id="#div1"></div>
+        <div class="droppable" id="#div2"></div>
+        <div class="droppable" id="#div3"></div>
+        <div class="droppable" id="#div4"></div>
+        <div class="droppable" id="#div5"></div>
+        <div class="droppable" id="#div6"></div>
+        <div class="droppable" id="#div7"></div>
+        <div class="droppable" id="#div8"></div>
+    </div>
+
+
+    <!-- TIMER _______________________________ -->
+    <section id="stopWatch">
+        <p id="timer"> Game Time : 00:00 </p>
+        <button id="start"> Start </button>
+    </section>
+
+    <!-- JAVASCRIPT FILE LINK ______________________ -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
